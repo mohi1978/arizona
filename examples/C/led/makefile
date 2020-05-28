@@ -1,5 +1,7 @@
 OC = m6811-elf-objcopy
 CC = m6811-elf-gcc
+AS = m6811-elf-as
+
 RM = rm
 
 CFLAGS  = -m68hc11 -O3 -fno-ident -fno-common -fomit-frame-pointer -mshort
